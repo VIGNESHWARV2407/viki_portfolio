@@ -1,0 +1,247 @@
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* ---------------------Navbar-------------------------------- */
+.navbar {
+    width: fit-content;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 13px;
+    border-radius: 20px;
+    border-color: none;
+    box-shadow: 5px 10px 18px #888888;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.navbar a:hover
+{
+  font-weight: 700;
+  color: green;
+}
+
+.footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    background: url("bgif.gif");
+    background-attachment: fixed;
+  background-size: cover;
+}
+.border
+{
+    background-image:linear-gradient(to right,red,green,yellow);
+    width: 75%;
+    padding: 3px;
+    border-radius: 50%;
+    right: 0;
+    margin-left: 10%;
+}
+.main_content
+{
+  margin-left: 30px;
+}
+/* ----------------------About------------------------------- */
+.name_and_photo
+{
+    margin: none;
+    background: url("myimg.jpg");
+    /* background-attachment: fixed; */
+    background-size: cover;
+    width:90%;
+    height: 680px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.bg_empty{
+  margin-top: 12.5px;
+}
+
+.name_and_photo > h1:hover 
+{
+    border: 8px solid white;
+    border-radius: 50px;
+    padding: 50px;
+    transition: 1ms;
+    cursor: pointer;
+}
+
+/* -----------------------Skills------------------------------ */
+.first_skill,.tech_skill,.htmlcssjs,.advweb,.qt
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.prg_s
+{
+    border: 1px solid white;
+    width: 180px;
+    height: 140px;
+    border-radius: 7px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#c {
+    background: linear-gradient(to right, #e921a3, #795c7e);
+}
+
+#cpp {
+    background: linear-gradient(to right, #af4659, #c16b66);
+}
+
+#py {
+    background: linear-gradient(to right, rgba(109, 239, 54, 0.649), #1c1c1c);
+}
+
+#java {
+    background: linear-gradient(to right, cadetblue, #0072bb);
+}
+
+
+.tech_s
+{
+    border: 1px solid white;
+    width: 180px;
+    height: 140px;
+    border-radius: 7px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#react {
+    background: linear-gradient(to right, #61dafb, #20232a);
+}
+
+#ang {
+    background: linear-gradient(to right, #dd0031, #333333);
+}
+
+#node {
+    background: linear-gradient(to right, #68a063, #2c3e50);
+}
+
+#next {
+    background: linear-gradient(to right, #000080, #87CEEB);
+}
+
+
+
+/* -------------------------Projects---------------------------- */
+.proj_hcj,.proj_adv
+{
+  border: 1px solid white;
+  width: 180px;
+  height: 140px;
+  border-radius: 7px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pf {
+  background: linear-gradient(to right, #f5a623, #f27121);
+}
+
+#spd {
+  background: linear-gradient(to right, #9013fe, #525252);
+  width: 260px;
+  height: 140px;
+}
+
+#pl {
+  background: linear-gradient(to right, #26a267, #34495e);
+  width: 250px;
+  height: 140px;
+}
+
+#qr {
+  background: linear-gradient(to right, #0073e6, #93d7e0);
+  width: 190px;
+  height: 140px;
+}
+
+#qt {
+  background: linear-gradient(to right, #c71585, #dda0dd);
+}
+
+#oce {
+  background: linear-gradient(to right, #ff4500, #ff8c00);
+  width: 300px;
+  height: 110px;
+}
+
+#es {
+  background: linear-gradient(to right, #4caf50, #008000);
+  width: 250px;
+  height: 110px;
+}
+
+/* -------------------------Contacts---------------------------- */
+/* .contact
+{
+ margin-right: 30px;
+  
+} */
+.contact
+{
+  text-align: center;
+}
+.links > a
+{
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+#github {
+  background: linear-gradient(to right, #ff4500, #ff8c00);
+}
+#linkedin {
+  background: linear-gradient(to right, #0073e6, #93d7e0);
+}
+#insta {
+  background: linear-gradient(to right, #c71585, #dda0dd);
+}
+.links 
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap:10px;
+}
